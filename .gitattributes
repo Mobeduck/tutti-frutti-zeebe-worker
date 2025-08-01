@@ -1,0 +1,20 @@
+# Ensure all text files use LF line endings in the repository
+* text=auto eol=lf
+
+# Treat binary files properly (no diffing or merging)
+*.jar binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.pdf binary
+
+# Handle Java/Maven/Spring-specific files
+*.java text diff=java
+*.xml text
+*.yml text
+
+# Ignore executable permission differences and enforce LF for shell scripts
+*.sh text eol=lf
+
+# For GitHub Linguist language classification (optional)
+*.java linguist-language=Java

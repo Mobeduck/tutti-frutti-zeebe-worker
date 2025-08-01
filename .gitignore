@@ -1,0 +1,8 @@
+# Maven build directory
+/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
