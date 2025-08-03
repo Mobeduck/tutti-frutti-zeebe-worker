@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public record RatingBeerDTO(
         @JsonProperty("average")
-        Integer average,
+        Float average,
 
         @JsonProperty("reviews")
         Integer reviews

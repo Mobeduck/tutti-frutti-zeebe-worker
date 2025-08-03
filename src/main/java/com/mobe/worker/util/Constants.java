@@ -4,5 +4,5 @@ import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public class Constants {
-    public final String BEERS_CLIENT = "beersClient";
+    public static final String BEERS_CLIENT = "beersClient";
 }
